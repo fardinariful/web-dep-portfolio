@@ -16,19 +16,17 @@ body {
   color: white;
   padding: 15px 35px;
 }
-.section-title{
+.section-title {
   color: #181818;
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  
 }
-.section-description{
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
-    /* 166.667% */
-    
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  /* 166.667% */
 }
 /* nav related styles */
 nav {
@@ -89,9 +87,12 @@ nav a {
 }
 
 /* main section style */
-main{
-    width: 1140px;
-    margin: 0 auto;
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+main section {
+  margin-top: 130px;
 }
 /* about section style */
 
@@ -101,10 +102,80 @@ main{
   background: #fff8f3;
   margin: 130px 0px;
 }
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
 }
-.about-info{
+.about-info {
+  text-align: center;
+}
+#what i do {
+  padding: 30px 150px;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description {
+  color: #757575;
+}
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institution{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-item-institution,
+.resume-item-description {
+  color: #757575;
+}
+.resume-item-title {
+  color:  #474747;
+  font-size: 25px;
+  font-weight: 700;
+  
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
     text-align: center;
+    margin-top: 50px;
 }
+
+footer{
+    display: flex;
+    gap:100px;
+    background-color:  #FFF8F3;
+    padding: 100px 200px;
+    margin-top: 100px;
+}
+.footer-item{
+    width: 50%;
+}
+.contact input[type="text"], .contact[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:  #FFF;
+    border: 0;
+    width: 100%;
+
+}
+.contact input
